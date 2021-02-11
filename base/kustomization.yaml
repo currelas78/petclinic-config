@@ -2,5 +2,3 @@ resources:
 - deployment.yaml
 - service.yaml
 - route.yaml
-patchesStrategicMerge:
-  - patches/petclinic-deployment-replicas-override.yaml
